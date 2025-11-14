@@ -13,7 +13,7 @@ commonstextver = "1.12.0"
 commonsvalidatorver = "1.10.0"
 gsonver = "2.13.1"
 javaxwebsocketapiver = "1.1"
-log4jver = "2.24.3"
+log4jver = "2.25.2"
 mockitover = "1.10.19"
 tomcatver = "9.0.108"
 
