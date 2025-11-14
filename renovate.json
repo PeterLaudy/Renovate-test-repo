@@ -8,8 +8,8 @@
             "description": "Enable non-major updates of all log4j packages in the libs.versions.toml file.",
             "groupName": "Non-major update for log4j",
             "matchManagers": ["gradle"],
-            "matchFileNames": [ "/libs.versions.toml" ],
-            "matchPackageNames": [ "/org\\.apache\\.logging\\.log4j:log4j.*/" ],
+            "matchFileNames": [ "libs.versions.toml" ],
+            "matchPackageNames": [ "/^org\\.apache\\.logging\\.log4j:log4j.*$/" ],
             "matchUpdateTypes": [ "minor", "patch" ],
             "enabled": true
         }
